@@ -9,4 +9,4 @@ def ordenar_batallas(tiempos, importancias):
     batallas.sort(key=lambda x: x[3], reverse=True)
     return batallas
 
-print(ordenar_batallas([3, 1, 2], [5, 10, 15]))
+# print(ordenar_batallas([3, 1, 2], [5, 10, 15]))
